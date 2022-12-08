@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auxiliator", "Auxiliator\Auxiliator.csproj", "{771048E0-EE12-4752-84BF-134684A38820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auxiliator.Tests", "Auxiliator.Tests\Auxiliator.Tests.csproj", "{DFD5A25C-DB90-4FF1-9A05-D3A9B579E81C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{771048E0-EE12-4752-84BF-134684A38820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771048E0-EE12-4752-84BF-134684A38820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771048E0-EE12-4752-84BF-134684A38820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771048E0-EE12-4752-84BF-134684A38820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD5A25C-DB90-4FF1-9A05-D3A9B579E81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD5A25C-DB90-4FF1-9A05-D3A9B579E81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD5A25C-DB90-4FF1-9A05-D3A9B579E81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD5A25C-DB90-4FF1-9A05-D3A9B579E81C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

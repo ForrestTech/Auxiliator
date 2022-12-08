@@ -1,6 +1,4 @@
-﻿using FluentAssertions;
-
-namespace Auxilium.Tests;
+﻿namespace Auxiliator.Tests;
 
 public class CollectionExtensionTests
 {

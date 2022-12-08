@@ -1,4 +1,4 @@
-﻿namespace Auxilium;
+﻿namespace Auxiliator;
 
 public abstract record Either<T>
 {

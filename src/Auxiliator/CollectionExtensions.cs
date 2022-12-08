@@ -1,10 +1,15 @@
-﻿using System.Diagnostics;
-
-namespace Auxilium;
+﻿namespace Auxiliator;
 
 public static class CollectionExtensions
 {
     public static IEnumerable<T> AsArray<T>(this T @this) => new[] {@this};
+    
+    public static IEnumerable<T> DistinctBy<T, K>(this IEnumerable<T> @this, Func<T, K> keySelector)
+    {
+        var seenKeys = new HashSet<K>();
+
+        return @this.Where(element => seenKeys.Add(keySelector(element)));
+    }
     
     /// <summary>
     /// Determines whether all elements of a sequence do not satisfy a condition.

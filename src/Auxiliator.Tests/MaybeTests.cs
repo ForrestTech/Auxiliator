@@ -1,6 +1,4 @@
-﻿using FluentAssertions;
-
-namespace Auxilium.Tests;
+﻿namespace Auxiliator.Tests;
 
 public class MaybeTests
 {
@@ -100,7 +98,7 @@ public class MaybeTests
     record Person(string FirstName, string LastName, int Age);
 
     Func<int, Person> GetEmptyPerson = (int personId) =>
-        null;
+        null!;
 
     [Fact]
     public void Bind_no_value()
