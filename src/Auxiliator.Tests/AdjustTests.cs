@@ -1,6 +1,4 @@
-﻿
-
-namespace Auxiliator.Tests;
+﻿namespace Auxiliator.Tests;
 
 public class AdjustTests
 {
