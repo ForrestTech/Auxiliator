@@ -1,4 +1,4 @@
-﻿namespace Auxiliator.Tests;
+﻿namespace Fundamentum.Tests;
 
 public class MaybeTests
 {

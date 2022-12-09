@@ -1,8 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auxiliator", "src\Auxiliator\Auxiliator.csproj", "{771048E0-EE12-4752-84BF-134684A38820}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamentum", "src\Fundamentum\Fundamentum.csproj", "{771048E0-EE12-4752-84BF-134684A38820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auxiliator.Tests", "src\Auxiliator.Tests\Auxiliator.Tests.csproj", "{DFD5A25C-DB90-4FF1-9A05-D3A9B579E81C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamentum.Tests", "src\Fundamentum.Tests\Fundamentum.Tests.csproj", "{DFD5A25C-DB90-4FF1-9A05-D3A9B579E81C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{1E29AEB0-E976-41AE-AB9C-56FD2FB8C1B6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

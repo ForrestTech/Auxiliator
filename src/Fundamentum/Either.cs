@@ -1,4 +1,4 @@
-﻿namespace Auxiliator;
+﻿namespace Fundamentum;
 
 public abstract record Either<T>
 {

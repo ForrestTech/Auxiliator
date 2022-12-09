@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Auxiliator;
+namespace Fundamentum;
 
 public abstract record Maybe<T>
 {

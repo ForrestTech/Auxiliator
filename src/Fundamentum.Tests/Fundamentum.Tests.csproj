@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Auxiliator\Auxiliator.csproj" />
+      <ProjectReference Include="..\Fundamentum\Fundamentum.csproj" />
     </ItemGroup>
 
 </Project>

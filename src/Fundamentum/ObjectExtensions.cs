@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace Auxiliator;
+namespace Fundamentum;
 
 public static class ObjectExtensions
 {

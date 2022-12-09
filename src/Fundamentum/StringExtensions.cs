@@ -1,4 +1,4 @@
-﻿namespace Auxiliator;
+﻿namespace Fundamentum;
 
 public static class StringExtensions
 {
